@@ -11,11 +11,11 @@ function Zadanie3()
     let sum2 = 0;
     for(let i = 0; i < 3; i++)
     {
-        sum1 += mas[i];
+        sum1 += Number(mas[i]);
     }
     for(let i = 3; i < 6; i++)
     {
-        sum2 += mas[i];
+        sum2 += Number(mas[i]);
     }
     if(sum1 == sum2)
     {
