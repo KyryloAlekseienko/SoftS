@@ -1,6 +1,9 @@
 function Strocks()
 {
-   let slovo = prompt("Введіть речення");
+   let slovo;
+    do{
+        slovo = prompt("Введіть речення");
+    }while(slovo == "")
    let mas = slovo.replace(/[,."+=*'()?!-]/g, '');   
    slovo = mas.split(" ");
    let min = slovo[0].length;
