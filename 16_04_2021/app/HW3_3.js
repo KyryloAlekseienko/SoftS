@@ -6,7 +6,7 @@ function FindAChair(){
     let array = new Array;//Массив ответов 
     let xChair = 0; //Занятых стульев
     let ExistingChair = 0; // Сколько стульев в комнате вообще
-    let need = prompt("Введите сколько стульев нужно (не больше 8)","")
+    let need = prompt("Введите сколько стульев нужно (не больше 8)","");
     let meetingRooms = prompt("Введите строку","");
     let meetingRooms2 = meetingRooms.replace(/[,.""''()?!-]/g, '');
     meetingRooms = meetingRooms2.split(" ");
@@ -40,5 +40,5 @@ function FindAChair(){
             ExistingChair = 0;
         }
     }
-    //console.log(meetingRooms);
+    console.log(meetingRooms);
 }
